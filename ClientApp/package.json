@@ -1,15 +1,30 @@
 {
   "name": "react.template.typescript",
   "version": "0.1.0",
+  "description": "Template dotnetcore y spa en react que llama a la API de Microsoft Graph mediante MSAL (con punto de conexión AAD v2)",
+  "author": {
+    "name": "Ing.Juan Carlos Velazquez Quiroz",
+    "email": "carlos-quiroz@outlook.com",
+    "github": "https://github.com/JCQuirozBee/react-dotnetcore.template.app",
+    "url": "https://www.pacificbeetechs.com",
+    "organization": "Pacific Bee Techs"
+  },
   "private": true,
   "dependencies": {
-    "http-proxy-middleware": "^2.0.6",
-    "merge": "^2.1.1",
-    "oidc-client": "^1.11.5",
+    "@azure/msal-browser": "^2.32.1",
+    "@azure/msal-react": "^1.5.1",
+    "@fluentui/react": "^8.103.10",
+    "@fluentui/react-charting": "^5.14.30",
+    "@fluentui/react-hooks": "^8.6.14",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.10",
     "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.9",
+    "axios": "^1.2.1",
+    "http-proxy-middleware": "^2.0.6",
+    "merge": "^2.1.1",
+    "moment": "^2.29.4",
+    "oidc-client": "^1.11.5",
+    "puppeteer": "^19.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
@@ -31,6 +46,12 @@
     "workbox-streams": "^6.5.3"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react-dev-utils": "^9.0.11",
+    "@types/react-dom": "^18.0.9",
+    "@types/react-router-dom": "^5.3.3",
     "ajv": "^8.11.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.18.0",
@@ -40,10 +61,8 @@
     "eslint-plugin-jsx-a11y": "^6.6.0",
     "eslint-plugin-react": "^7.30.1",
     "nan": "^2.16.0",
-    "typescript": "^4.7.4",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0"
+    "nodemon": "^2.0.20",
+    "typescript": "^4.7.4"
   },
   "overrides": {
     "autoprefixer": "10.4.5"
