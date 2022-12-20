@@ -1,0 +1,26 @@
+{
+    "/api": {
+        "target": "http://localhost:8000",
+        "secure": true,
+        "changeOrigin": true,
+        "pathRewrite": {
+        "^/api": ""
+        }
+    },
+    "/api-prod": {
+        "target": "https://pacificbeetechs.azurewebsites.net/api:443",
+        "secure": true,
+        "changeOrigin": true,
+        "pathRewrite": {
+        "^/api": ""
+        }
+    },
+    "/api-testing": {
+        "target": "https://pacificbeetechs.azurewebsites.net/api:443",
+        "secure": true,
+        "changeOrigin": true,
+        "pathRewrite": {
+        "^/api": ""
+        }
+    }
+}

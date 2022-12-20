@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin/Release/net6.0/publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/8e0bbeb7-95b4-444b-b12f-5e9b4c5b245f/AppServices/subscriptions/8e0bbeb7-95b4-444b-b12f-5e9b4c5b245f/resourceGroups/appsvc_windows_centralus_basic/providers/Microsoft.Web/sites/pacificbeetechs"
+}
